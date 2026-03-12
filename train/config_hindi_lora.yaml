@@ -1,0 +1,15 @@
+TTS_dataset: "./rasa_hindi_orpheus"       # output of prepare_rasa_hindi.py
+
+model_name: "canopylabs/3b-hi-pretrain-research_release"
+
+epochs: 3
+batch_size: 1
+number_processes: 1
+learning_rate: 2.0e-4
+
+pad_token: 128263
+save_steps: 1000
+save_folder: "./checkpoints_hindi_lora"
+
+project_name: "orpheus-hindi-lora"
+run_name: "rasa-hindi-male-3ep"

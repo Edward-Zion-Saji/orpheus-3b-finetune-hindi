@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environments
+.env
+.venv
+venv/
+
+# Generated outputs
+*.wav
+*.log
+wandb/
+dataset_sample.txt
+
+# HuggingFace cache
+.cache/
+
+# Checkpoints & datasets (live on hyperdisk, not in repo)
+checkpoints*/
+rasa_hindi_orpheus/
